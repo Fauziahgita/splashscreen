@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/image_hewan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/kurakura"
+        />
+    <TextView
+        android:id="@+id/textDataHewan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:text="Data Hewan"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama :"
+            />
+        <TextView
+            android:id="@+id/txtNamaHewan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3B973B"
+            android:text="Ayam"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pemakan :"
+            />
+        <TextView
+            android:id="@+id/txtPemakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#478A47"
+            android:text="Omnivora"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berkembangbiak :"
+            />
+        <TextView
+            android:id="@+id/txtBerkembangbiak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#28E328"
+            android:text="Ovipar"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TmpHidup :"
+            />
+        <TextView
+            android:id="@+id/txtTmpHidup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#24D324"
+            android:text="Darat"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NamaLatin :"
+            />
+        <TextView
+            android:id="@+id/txtNamaLatin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00F300"
+            android:text="Gallus gallus domesticus"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:text="Close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+</LinearLayout>
